@@ -1,0 +1,32 @@
+/*HEADER********************************/
+/*SECTION:top-bar*/
+.top-bar {
+    background-color: deeppink;
+    padding: 1rem;
+}
+
+/*SOCIAL-LIST*/
+.top-bar__social-list {
+    /*display cac li nam ngang, dung display=flex*/
+    display: flex;
+    flex-flow: row nowrap;
+
+    /*bo dau cham tron*/
+    list-style-type: none;
+    margin: 0;
+}
+.top-bar__social-list > li {
+    margin-right: 1rem;
+}
+.top-bar__social-list > li > a {
+    color:  #fff;
+}
+/*group 2 selector dùng chung CSS
+selector1, selector2 {
+    code here
+}
+*/
+.top-bar__links > a,
+.top-bar__links > span {
+    color:  #fff;
+}
