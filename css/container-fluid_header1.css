@@ -1,0 +1,21 @@
+.top-bar__wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar__wrapper__nav {
+    list-style-type: none;
+    display: flex;
+}
+.top-bar__wrapper__nav li {
+    margin-left: 2rem;
+}
+/* .top-bar__wrapper__logo p > a > i {
+    background-image: url();
+} */
+.top-bar__wrapper__category {
+    display: none;
+}

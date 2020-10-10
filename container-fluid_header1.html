@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/4a96aab4b7.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/container-fluid_header1.css">
+    <script>
+        $(document).ready(function () {
+            $("[data-toggle=popover]").popover({
+                html: true,
+                content: function () {
+                    return $('.top-bar__wrapper__category').html();
+                }
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <!-- 
+            header
+                section.top-bar
+                    div.container-fluid
+                        div.top-bar__wrapper(css flexbox)
+                            p
+                                a
+                                    img
+                            ul
+                                li
+                                    a
+                                        i
+         -->
+    <header>
+        <section class="top-bar">
+            <div class="container-fluid">
+                <div class="top-bar__wrapper">
+                    <p class="top-bar__wrapper__logo"><a href=""><img src="https://dummyimage.com/100x100/000/fff&text=logo" alt="" /><i></i></a></p>
+                    <div>
+                        <ul class="top-bar__wrapper__nav">
+                            <li><a href="#"><i>user</i></a></li>
+                            <li><a href="#"><i>cart</i></a></li>
+                            <li>
+
+
+                                <a data-placement="bottom" data-toggle="popover" data-container="body"
+                                    data-placement="left" type="button" data-html="true" href="#" id="login"><span
+                                        class="glyphicon glyphicon-search" style="margin:3px 0 0 0"></span></a>
+                            </li>
+                        </ul>
+                        <div class="top-bar__wrapper__category">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum iusto ratione
+                                officia dolorem quidem, officiis minus itaque, provident aperiam sint vitae facere,
+                                incidunt a sit explicabo dolore asperiores quod?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum iusto ratione
+                                officia dolorem quidem, officiis minus itaque, provident aperiam sint vitae facere,
+                                incidunt a sit explicabo dolore asperiores quod?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum iusto ratione
+                                officia dolorem quidem, officiis minus itaque, provident aperiam sint vitae facere,
+                                incidunt a sit explicabo dolore asperiores quod?</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
