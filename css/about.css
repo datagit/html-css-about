@@ -1,0 +1,23 @@
+.top-nav__menus {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px 1rem 0px 0px;
+}
+
+.top-nav__search > i {
+    background-color: deeppink;
+}
+
+.hero {
+
+    background-image: url(https://dummyimage.com/1310x200/d636d6/fff&text=background);
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+}
+.hero__content > h1 {
+    margin-bottom: 0px;
+}
