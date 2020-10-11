@@ -1,3 +1,4 @@
+- dùng display:flex để dàng trang HTML: https://xuanthulab.net/su-dung-flexbox-bo-cuc-trang-trong-css.html
 ------------------------------------------------------------
 1. từ trên xuống dưới
 	layout tổng quan, chia BLOCK
