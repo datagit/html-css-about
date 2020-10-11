@@ -1,4 +1,3 @@
-/* top-nav */
 .top-nav__menus {
     display: flex;
     justify-content: space-between;
@@ -14,7 +13,6 @@
     background-color: deeppink;
 }
 
-/* hero */
 .hero {
 
     background-image: url(https://dummyimage.com/1310x200/d636d6/fff&text=background);
@@ -27,4 +25,3 @@
 .hero__content > h1 {
     margin-bottom: 0px;
 }
-
