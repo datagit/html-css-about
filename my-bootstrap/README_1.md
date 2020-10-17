@@ -1,0 +1,3 @@
+- doc: https://docs.google.com/document/d/1i6zdjN4FpY_W0Dt8YBpxY4OqoXYktkyoK5oq4EeZmic/edit
+- https://xuanthulab.net/bootstrap-css-framework/
+- https://xuanthulab.net/ung-dung-lop-media-cua-bootstrap.html

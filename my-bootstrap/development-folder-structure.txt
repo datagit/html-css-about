@@ -1,0 +1,5 @@
+mkdir -p ~/Developer/Code
+mkdir -p ~/Developer/Projects
+mkdir -p ~/Developer/Projects/ec-tanomel
+mkdir -p ~/Developer/Projects/Current
+# ln -s /path/to/original ~/Developer/Projects/Current/ec-tanomel-web
