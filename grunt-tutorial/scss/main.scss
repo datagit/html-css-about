@@ -1,0 +1,10 @@
+$color1: red;
+$color2: lime;
+
+a {
+    color: $color1;
+    font-size: 14rem;
+    &:hover {
+        color: $color2;
+    }
+}

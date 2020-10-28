@@ -1,3 +1,4 @@
+const sass = require('node-sass');
 module.exports = function (grunt) {
 
     // Project configuration.
@@ -18,12 +19,26 @@ module.exports = function (grunt) {
             }
         },
         // <<
+        // >>
+        sass: {
+            options: {
+                implementation: sass,
+                sourceMap: false
+            },
+            dist: {
+                files: {
+                    'css/main.css': 'scss/main.scss'
+                }
+            }
+        },
+        // <<
         // >> setting for watch
         watch: {
             scripts: {
-              files: ['**/*.js'],
+              files: ['**/*.js', 'scss/*.scss'],
               //tasks: ['jshint'],
               tasks: ['uglify'],
+              tasks: ['sass'],
               options: {
                 spawn: false,
               },
@@ -35,10 +50,13 @@ module.exports = function (grunt) {
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
+    // load the plugin that provides the 'sass' task
+    grunt.loadNpmTasks('grunt-sass');
+
     // load the plugin that provides the 'watch' task
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('default', ['watch']);
 
 };

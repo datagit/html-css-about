@@ -23,3 +23,10 @@ grunt -version
 // create file Gruntfile.js
 touch Gruntfile.js
 ```
+- Dùng grunt tạo dự án biên dịch SASS thành CSS tùy biến thư viện CSS Bootstrap: 
+- https://xuanthulab.net/dung-grunt-tao-du-an-bien-dich-sass-thanh-css-tuy-bien-thu-vien-css-bootstrap.html
+- https://xuanthulab.net/su-dung-sass-scss/
+```js
+// grunt-sass
+npm install --save-dev node-sass grunt-sass
+```
