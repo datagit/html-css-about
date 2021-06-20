@@ -1,3 +1,4 @@
+- guide: https://www.youtube.com/watch?v=4Md08rfio6Q&list=PLeS7aZkL6GOvpkUu6FHFaivFA1xEnRCod&index=3
 - dùng display:flex để dàng trang HTML: https://xuanthulab.net/su-dung-flexbox-bo-cuc-trang-trong-css.html
 ------------------------------------------------------------
 1. từ trên xuống dưới
